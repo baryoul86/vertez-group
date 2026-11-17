@@ -5,24 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VERTEZ CONFERENCES — Encuentros, debates e intercambios profesionales</title>
 <meta name="description" content="La división de eventos digitales, encuentros profesionales e intercambios en directo sobre temas especializados.">
-<meta name="theme-color" content="#0A0D12">
+<meta name="theme-color" content="#0B0B0C">
 <meta property="og:title" content="VERTEZ CONFERENCES — Encuentros, debates e intercambios profesionales">
 <meta property="og:description" content="La división de eventos digitales, encuentros profesionales e intercambios en directo sobre temas especializados.">
 <meta property="og:type" content="website">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" hreflang="es" href="/es/conferences"><link rel="alternate" hreflang="fr" href="/fr/conferences"><link rel="alternate" hreflang="en" href="/en/conferences">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600&family=Saira+Condensed:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap">
 <style>
-x-if{display:contents}x-if[hidden]{display:none}x-v{display:inline}
+[hidden]{display:none!important}x-if{display:contents}x-if[hidden]{display:none}x-v{display:inline}
+.vz-flank{display:none}@media (min-width:1200px){.vz-flank{display:block}}
+.vz-card{transition:border-color .15s,transform .15s}.vz-card:hover{border-color:#FF6B1A!important;transform:translateY(-2px)}
+[data-admin] input,[data-admin] textarea{font:inherit}
+@media (max-width:520px){.vz-fab span:last-child{display:none}.vz-fab{padding:5px!important}}
 html{scroll-behavior:smooth}
 @media (max-width:760px){header nav{flex-wrap:nowrap!important;overflow-x:auto;width:100%;padding-bottom:4px;scrollbar-width:none}header nav::-webkit-scrollbar{display:none}header nav a{flex:0 0 auto}}
 *{-webkit-tap-highlight-color:transparent}
-body{margin:0;background:#0A0D12}
-a{color:#C9D1DC;text-decoration:none}a:hover{color:#FFFFFF}
+body{margin:0;background:#0B0B0C}
+a{color:#D2D2D6;text-decoration:none}a:hover{color:#FFFFFF}
 @keyframes vzBar{0%,100%{transform:scaleY(0.3)}50%{transform:scaleY(1)}}
-@keyframes vzPulse{0%{box-shadow:0 0 0 0 rgba(61,220,151,0.55)}100%{box-shadow:0 0 0 14px rgba(61,220,151,0)}}
+@keyframes vzPulse{0%{box-shadow:0 0 0 0 rgba(255,107,26,0.55)}100%{box-shadow:0 0 0 14px rgba(255,107,26,0)}}
 @keyframes vzBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-.vz-bar{display:inline-block;width:3px;height:14px;background:#3DDC97;transform-origin:bottom;animation:vzBar .6s ease-in-out infinite}
+.vz-bar{display:inline-block;width:3px;height:14px;background:#FF6B1A;transform-origin:bottom;animation:vzBar .6s ease-in-out infinite}
 .vz-pulse{animation:vzPulse 1.1s ease-out infinite}
 .vz-bob{animation:vzBob 1.6s ease-in-out infinite}
 @media (prefers-reduced-motion: reduce){.vz-bar,.vz-pulse,.vz-bob{animation:none}}
@@ -31,124 +35,127 @@ a{color:#C9D1DC;text-decoration:none}a:hover{color:#FFFFFF}
 <body>
 
 
-<div style="background-color: #0A0D12; background-image: linear-gradient(rgba(120,150,190,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(120,150,190,0.06) 1px, transparent 1px); background-size: 56px 56px; color: #E9EDF2; font-family: 'Saira', system-ui, sans-serif; min-height: 100vh; box-sizing: border-box; overflow: hidden">
-<header style="border-bottom: 1px solid #222B36; background: rgba(10,13,18,0.92)">
+<div style="background-color: #0B0B0C; color: #F2F2F2; font-family: 'Barlow', system-ui, sans-serif; min-height: 100vh; box-sizing: border-box; overflow: hidden">
+<header style="border-bottom: 1px solid #2C2C2F; background: rgba(11,11,12,0.92)">
 <div style="max-width: 1360px; margin: 0 auto; padding: 10px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px">
 <a href="/es" aria-label="VERTEZ GROUP" style="display: flex; align-items: center; gap: 10px; min-height: 44px">
-<svg aria-hidden="true" width="40" height="40" viewBox="0 0 48 48" fill="none"><path d="M24 3l18 10.5v21L24 45 6 34.5v-21z" stroke="#3DDC97" stroke-width="2.5"></path><path d="M13.5 15l10.5 19 10.5-19" stroke="#E9EDF2" stroke-width="4.5" stroke-linecap="square"></path><path d="M19.5 15l4.5 8 4.5-8" stroke="#3DDC97" stroke-width="2.5" stroke-linecap="square"></path></svg>
-<span style="font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: 0.16em; color: #FFFFFF">VERTEZ<span style="color: #3DDC97"> GROUP</span></span>
+<svg aria-hidden="true" width="40" height="40" viewBox="0 0 48 48" fill="none"><path d="M24 3l18 6v14c0 11-7.6 19-18 22C13.6 42 6 34 6 23V9z" stroke="#FF6B1A" stroke-width="2.6"></path><path d="M14 15l10 19 10-19" stroke="#F2F2F2" stroke-width="4.5" stroke-linecap="square"></path><path d="M19.5 15l4.5 8.5 4.5-8.5" stroke="#FF6B1A" stroke-width="2.5" stroke-linecap="square"></path></svg>
+<span style="font-family: 'Oswald', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: 0.16em; color: #FFFFFF">VERTEZ<span style="color: #FF6B1A"> GROUP</span></span>
 </a>
 <nav aria-label="VERTEZ" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0 18px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase">
-<a href="/es" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Inicio</a>
-<a href="/es/community" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Community</a>
-<a href="/es/store" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Store</a>
-<a href="/es/world" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">World</a>
-<a href="/es/media" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Media</a>
-<a href="/es/academy" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Academy</a>
-<a href="/es/technology" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">Technology</a>
-<a href="/es/ai" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #C9D1DC">AI</a>
-<a href="/es/conferences" aria-current="page" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid #3DDC97; color: #FFFFFF">Conferences</a>
+<a href="/es" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Inicio</a>
+<a href="/es/community" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Community</a>
+<a href="/es/store" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Store</a>
+<a href="/es/world" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">World</a>
+<a href="/es/media" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Media</a>
+<a href="/es/academy" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Academy</a>
+<a href="/es/technology" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">Technology</a>
+<a href="/es/ai" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid transparent; color: #D2D2D6">AI</a>
+<a href="/es/conferences" aria-current="page" style="min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid #FF6B1A; color: #FFFFFF">Conferences</a>
 </nav>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px">
 <div role="group" aria-label="Idioma" style="display: flex; align-items: center; gap: 6px">
 
-<a href="/es/conferences" hreflang="es" lang="es" aria-current="true" aria-label="Español" data-lang="es" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: #3DDC97; border: 1px solid #3DDC97; color: #0A0D12">ES</a>
+<a href="/es/conferences" hreflang="es" lang="es" aria-current="true" aria-label="Español" data-lang="es" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: #FF6B1A; border: 1px solid #FF6B1A; color: #0B0B0C">ES</a>
 
 
 
-<a href="/fr/conferences" hreflang="fr" lang="fr" aria-label="Français" data-lang="fr" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: transparent; border: 1px solid #4A5565; color: #E9EDF2">FR</a>
+<a href="/fr/conferences" hreflang="fr" lang="fr" aria-label="Français" data-lang="fr" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: transparent; border: 1px solid #3A3A3E; color: #F2F2F2">FR</a>
 
 
-<a href="/en/conferences" hreflang="en" lang="en" aria-label="English" data-lang="en" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: transparent; border: 1px solid #4A5565; color: #E9EDF2">EN</a>
+<a href="/en/conferences" hreflang="en" lang="en" aria-label="English" data-lang="en" style="min-width: 44px; min-height: 44px; padding: 0 10px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.1em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; background: transparent; border: 1px solid #3A3A3E; color: #F2F2F2">EN</a>
 
 </div>
-<a href="/es#registro" style="min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; border: 1px solid #4A5565; color: #E9EDF2; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase">Conexión</a>
-<a href="/es#registro" style="min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; background: #3DDC97; color: #0A0D12; font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px)">Inscripción</a>
+<a href="/es#registro" style="min-height: 44px; padding: 0 16px; display: inline-flex; align-items: center; border: 1px solid #3A3A3E; color: #F2F2F2; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase">Conexión</a>
+<a href="/es#registro" style="min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; background: #FF6B1A; color: #0B0B0C; font-family: 'Oswald', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 3px">Inscripción</a>
 </div>
 </div>
 </header>
 <main id="top">
 <section style="max-width: 1360px; margin: 0 auto; padding: 48px 24px 36px; display: flex; flex-wrap: wrap; align-items: center; gap: 32px 56px">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
-<a href="/es" style="align-self: flex-start; min-height: 44px; display: inline-flex; align-items: center; font-size: 14px; letter-spacing: 0.1em; color: #9AA5B3">← Volver al inicio</a>
-<div style="display: flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: #3DDC97"><span aria-hidden="true" style="width: 36px; height: 2px; background: #3DDC97; display: inline-block"></span><span>División 08</span></div>
-<h1 style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: clamp(44px, 6.4vw, 88px); line-height: 0.92; letter-spacing: 0.02em; text-transform: uppercase; color: #FFFFFF">VERTEZ<br><span style="color: #3DDC97">CONFERENCES</span></h1>
-<p style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #C9B88F">Encuentros, debates e intercambios profesionales</p>
-<p style="margin: 0; max-width: 640px; font-size: 18px; line-height: 1.65; color: #C9D1DC">La división de eventos digitales, encuentros profesionales e intercambios en directo sobre temas especializados.</p>
+<a href="/es" style="align-self: flex-start; min-height: 44px; display: inline-flex; align-items: center; font-size: 14px; letter-spacing: 0.1em; color: #A8A8AD">← Volver al inicio</a>
+<div style="display: flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: #FF6B1A"><span aria-hidden="true" style="width: 36px; height: 2px; background: #FF6B1A; display: inline-block"></span><span>División 08</span></div>
+<h1 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 800; font-size: clamp(44px, 6.4vw, 88px); line-height: 0.92; letter-spacing: 0.02em; text-transform: uppercase; color: #FFFFFF">VERTEZ<br><span style="color: #FF6B1A">CONFERENCES</span></h1>
+<p style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #F5F5F5">Encuentros, debates e intercambios profesionales</p>
+<p style="margin: 0; max-width: 640px; font-size: 18px; line-height: 1.65; color: #D2D2D6">La división de eventos digitales, encuentros profesionales e intercambios en directo sobre temas especializados.</p>
 </div>
 <div aria-hidden="true" style="flex: 0 1 300px; display: flex; justify-content: center">
-<div style="position: relative; width: 260px; height: 260px; display: flex; align-items: center; justify-content: center; color: #3DDC97">
-<svg width="260" height="260" viewBox="0 0 48 48" fill="none" style="position: absolute; inset: 0"><path d="M24 2l19.5 11.25v21.5L24 46 4.5 34.75v-21.5z" stroke="#222B36" stroke-width="0.8"></path><path d="M24 7l15 8.6v16.8L24 41 9 32.4V15.6z" stroke="#3DDC97" stroke-width="0.6" opacity="0.6"></path></svg>
-<svg aria-hidden="true" width="110" height="110" viewBox="0 0 24 24" fill="none" stroke="#3DDC97" stroke-width="1.2" stroke-linecap="square"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8 21h8"></path></svg>
-<span style="position: absolute; right: 18px; bottom: 26px; font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: 40px; color: #C9B88F">08</span>
+<div style="position: relative; width: 260px; height: 260px; display: flex; align-items: center; justify-content: center; color: #FF6B1A">
+<svg width="260" height="260" viewBox="0 0 48 48" fill="none" style="position: absolute; inset: 0"><path d="M24 2l19.5 11.25v21.5L24 46 4.5 34.75v-21.5z" stroke="#2C2C2F" stroke-width="0.8"></path><path d="M24 7l15 8.6v16.8L24 41 9 32.4V15.6z" stroke="#FF6B1A" stroke-width="0.6" opacity="0.6"></path></svg>
+<svg aria-hidden="true" width="110" height="110" viewBox="0 0 24 24" fill="none" stroke="#FF6B1A" stroke-width="1.2" stroke-linecap="square"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8 21h8"></path></svg>
+<span style="position: absolute; right: 18px; bottom: 26px; font-family: 'Oswald', sans-serif; font-weight: 800; font-size: 40px; color: #F5F5F5">08</span>
 </div>
 </div>
 </section>
 
-<section style="max-width: 1360px; margin: 0 auto; padding: 8px 24px 32px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px">
+<section style="max-width: 1360px; margin: 0 auto; padding: 8px 24px 32px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Agenda de eventos</h2>
+<div data-feed="events" data-limit="60" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px"><p style="margin: 0; font-size: 14px; color: #A8A8AD">Todavía no hay nada aquí.</p></div>
+</section><section style="max-width: 1360px; margin: 0 auto; padding: 8px 24px 32px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px">
 
-<div style="background: #11161D; border: 1px solid #222B36; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Conferencias en directo</h2>
+<div style="background: #18181A; border: 1px solid #2C2C2F; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Conferencias en directo</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px">
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Presentaciones profesionales</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Presentaciones profesionales</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Conferencias temáticas</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Conferencias temáticas</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intervenciones de expertos</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intervenciones de expertos</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Presentación de proyectos</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Presentación de proyectos</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intercambio con los participantes</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intercambio con los participantes</span></li>
 
 </ul>
 </div>
 
-<div style="background: #11161D; border: 1px solid #222B36; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Debates y discusiones</h2>
+<div style="background: #18181A; border: 1px solid #2C2C2F; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Debates y discusiones</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px">
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Debates geopolíticos</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Debates geopolíticos</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Discusiones históricas</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Discusiones históricas</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intercambios tecnológicos</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Intercambios tecnológicos</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Discusiones profesionales</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Discusiones profesionales</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Retornos de experiencia</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Retornos de experiencia</span></li>
 
 </ul>
 </div>
 
-<div style="background: #11161D; border: 1px solid #222B36; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Entrevistas</h2>
+<div style="background: #18181A; border: 1px solid #2C2C2F; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Entrevistas</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px">
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Militares</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Militares</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Antiguos militares</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Antiguos militares</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Emprendedores</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Emprendedores</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Especialistas</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Especialistas</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Formadores</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Formadores</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Profesionales de distintos sectores</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Profesionales de distintos sectores</span></li>
 
 </ul>
 </div>
 
-<div style="background: #11161D; border: 1px solid #222B36; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Videoconferencia</h2>
+<div style="background: #18181A; border: 1px solid #2C2C2F; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF">Videoconferencia</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px">
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Reuniones en vídeo</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Reuniones en vídeo</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Encuentros en grupo</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Encuentros en grupo</span></li>
 
-<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #C9D1DC"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #3DDC97; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Eventos digitales</span></li>
+<li style="display: flex; align-items: baseline; gap: 10px; font-size: 15px; line-height: 1.45; color: #D2D2D6"><span aria-hidden="true" style="flex: 0 0 auto; width: 6px; height: 6px; background: #FF6B1A; transform: translateY(-2px) rotate(45deg); display: inline-block"></span><span>Eventos digitales</span></li>
 
 </ul>
 </div>
@@ -156,25 +163,25 @@ a{color:#C9D1DC;text-decoration:none}a:hover{color:#FFFFFF}
 </section>
 <section style="max-width: 1360px; margin: 0 auto; padding: 0 24px 40px; display: flex; flex-direction: column; gap: 14px">
 
-<div style="background: linear-gradient(90deg, rgba(61,220,151,0.12), rgba(61,220,151,0.02)); border: 1px solid rgba(61,220,151,0.4); padding: 26px 28px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 28px">
-<span style="font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.2em; text-transform: uppercase; color: #3DDC97">Objetivo</span>
+<div style="background: linear-gradient(90deg, rgba(255,107,26,0.12), rgba(255,107,26,0.02)); border: 1px solid rgba(255,107,26,0.4); padding: 26px 28px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 28px">
+<span style="font-family: 'Oswald', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: 0.2em; text-transform: uppercase; color: #FF6B1A">Objetivo</span>
 <p style="margin: 0; flex: 1 1 420px; font-size: 19px; line-height: 1.55; color: #FFFFFF">Crear un espacio de intercambio internacional para compartir ideas, presentar proyectos y desarrollar relaciones profesionales.</p>
 </div>
 <nav aria-label="Divisiones" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 8px">
-<a href="/es/ai" style="min-height: 48px; padding: 0 18px; display: inline-flex; align-items: center; border: 1px solid #4A5565; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.08em; text-transform: uppercase">← Anterior · VERTEZ AI</a>
-<a href="/es/community" style="min-height: 48px; padding: 0 18px; display: inline-flex; align-items: center; border: 1px solid #4A5565; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.08em; text-transform: uppercase">VERTEZ COMMUNITY · Siguiente →</a>
+<a href="/es/ai" style="min-height: 48px; padding: 0 18px; display: inline-flex; align-items: center; border: 1px solid #3A3A3E; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.08em; text-transform: uppercase">← Anterior · VERTEZ AI</a>
+<a href="/es/community" style="min-height: 48px; padding: 0 18px; display: inline-flex; align-items: center; border: 1px solid #3A3A3E; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; letter-spacing: 0.08em; text-transform: uppercase">VERTEZ COMMUNITY · Siguiente →</a>
 </nav>
 </section>
 </main>
-<footer style="border-top: 1px solid #222B36; background: #07090D; margin-top: 24px">
+<footer style="border-top: 1px solid #2C2C2F; background: #070708; margin-top: 24px">
 <div style="max-width: 1360px; margin: 0 auto; padding: 48px 24px 28px; display: flex; flex-wrap: wrap; gap: 32px 56px">
 <div style="flex: 2 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
-<div style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="44" height="44" viewBox="0 0 48 48" fill="none"><path d="M24 3l18 10.5v21L24 45 6 34.5v-21z" stroke="#3DDC97" stroke-width="2.5"></path><path d="M13.5 15l10.5 19 10.5-19" stroke="#E9EDF2" stroke-width="4.5" stroke-linecap="square"></path><path d="M19.5 15l4.5 8 4.5-8" stroke="#3DDC97" stroke-width="2.5" stroke-linecap="square"></path></svg><span style="font-family: 'Saira Condensed', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 0.16em; color: #FFFFFF">VERTEZ<span style="color: #3DDC97"> GROUP</span></span></div>
-<p style="margin: 0; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 0.06em; color: #C9B88F">Conectar las competencias. Compartir los conocimientos. Construir el futuro.</p>
-<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #9AA5B3; max-width: 420px">Plataforma internacional de comunidad, tecnología, información y formación.</p>
+<div style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="44" height="44" viewBox="0 0 48 48" fill="none"><path d="M24 3l18 6v14c0 11-7.6 19-18 22C13.6 42 6 34 6 23V9z" stroke="#FF6B1A" stroke-width="2.6"></path><path d="M14 15l10 19 10-19" stroke="#F2F2F2" stroke-width="4.5" stroke-linecap="square"></path><path d="M19.5 15l4.5 8.5 4.5-8.5" stroke="#FF6B1A" stroke-width="2.5" stroke-linecap="square"></path></svg><span style="font-family: 'Oswald', sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 0.16em; color: #FFFFFF">VERTEZ<span style="color: #FF6B1A"> GROUP</span></span></div>
+<p style="margin: 0; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 0.06em; color: #F5F5F5">Conectar las competencias. Compartir los conocimientos. Construir el futuro.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A8A8AD; max-width: 420px">Plataforma internacional de comunidad, tecnología, información y formación.</p>
 </div>
 <div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px">
-<p style="margin: 0 0 6px; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase; color: #FFFFFF">Divisiones</p>
+<p style="margin: 0 0 6px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase; color: #FFFFFF">Divisiones</p>
 <a href="/es/community" style="min-height: 32px; display: inline-flex; align-items: center">VERTEZ COMMUNITY</a>
 <a href="/es/store" style="min-height: 32px; display: inline-flex; align-items: center">VERTEZ STORE</a>
 <a href="/es/world" style="min-height: 32px; display: inline-flex; align-items: center">VERTEZ WORLD</a>
@@ -185,7 +192,7 @@ a{color:#C9D1DC;text-decoration:none}a:hover{color:#FFFFFF}
 <a href="/es/conferences" style="min-height: 32px; display: inline-flex; align-items: center">VERTEZ CONFERENCES</a>
 </div>
 <div style="flex: 1 1 160px; min-width: 0; display: flex; flex-direction: column; gap: 6px; font-size: 14px">
-<p style="margin: 0 0 6px; font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase; color: #FFFFFF">Cuenta</p>
+<p style="margin: 0 0 6px; font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase; color: #FFFFFF">Cuenta</p>
 <a href="/es#registro" style="min-height: 32px; display: inline-flex; align-items: center">Conexión</a>
 <a href="/es#registro" style="min-height: 32px; display: inline-flex; align-items: center">Inscripción</a>
 <a href="/es#registro" style="min-height: 32px; display: inline-flex; align-items: center">Mi espacio</a>
@@ -194,10 +201,14 @@ a{color:#C9D1DC;text-decoration:none}a:hover{color:#FFFFFF}
 <a href="#top" style="min-height: 32px; display: inline-flex; align-items: center">Contacto</a>
 </div>
 </div>
-<div style="max-width: 1360px; margin: 0 auto; padding: 16px 24px 28px; border-top: 1px solid #222B36; font-size: 13px; color: #9AA5B3">© VERTEZ GROUP. Todos los derechos reservados.</div>
+<div style="max-width: 1360px; margin: 0 auto; padding: 16px 24px 28px; border-top: 1px solid #2C2C2F; font-size: 13px; color: #A8A8AD">© VERTEZ GROUP. Todos los derechos reservados.</div>
 </footer>
 </div>
 
+<a href="/es/asistente" class="vz-fab" aria-label="¡Habla conmigo!" style="position: fixed; right: 16px; bottom: 16px; z-index: 60; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 5px 18px 5px 5px; background: #FF6B1A; color: #0B0B0C; border-radius: 999px; box-shadow: 0 8px 28px rgba(0,0,0,0.55); font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 17px; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none">
+<span aria-hidden="true" style="position: relative; flex: 0 0 48px; width: 48px; height: 48px; border-radius: 50%; overflow: hidden; background: #C9CDD3; border: 2px solid #0B0B0C"><img src="/assets/cadet.webp" alt="" style="position: absolute; left: -82px; top: -15px; width: 196px; max-width: none; height: auto"></span>
+<span>¡Habla conmigo!</span></a>
+<script src="/assets/config.js"></script>
 <script>window.VZ={"page": "conferences", "lang": "es"};</script>
 <script src="/assets/site.js" defer></script>
 </body>
