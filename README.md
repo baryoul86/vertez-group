@@ -7,3 +7,5 @@ Sitio estático multilingüe (ES / FR / EN).
 - Contenidos dinámicos (noticias, eventos, vídeos, fotos, portada) en Supabase: ver `supabase/schema.sql`
   y rellenar `assets/config.js` con la URL y la clave pública del proyecto.
 - Despliegue: Vercel, sin build (Framework Preset: Other).
+
+Última actualización: 17/11/2026.
